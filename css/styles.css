@@ -1,0 +1,53 @@
+/*Anything that is a child to the body will contain this font, if arial isnt available it
+will search for the next available font, helvetica, sans-serif etc */
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+/* Center Image - changing from inline-element to block level element
+center img with margin 0(top and bottom) auto (left and right) */
+
+.logo-img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*give any div 20px of padding (top,bottom,left,right)*/
+
+div{
+    padding: 20px;
+}
+
+/* center the class center span */
+.center-span{
+    text-align: center;
+    margin: 0 auto;
+}
+
+ /* placing a border around the fieldset element */
+fieldset{
+    width: 75%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+fieldset label{
+    font-size: 90%;
+}
+
+/*to allow our inputs to be block level inputs */
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-bottom:25 px;
+
+} 
